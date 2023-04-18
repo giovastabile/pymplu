@@ -53,6 +53,7 @@ def set_default_font():
     change_axes_font(16)
     change_tick_font(14)
     change_legend_font(14)
+    plt.rcParams.update({"axes.grid" : True})
 
 markers = ['o','v','^','<','>','1','2','3','4','8','s','p','P']
 colors = ["#0072BD"
